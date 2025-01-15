@@ -1,0 +1,17 @@
+{
+  "intro": [
+    {
+      "greet": "Hi, my name is",
+      "userName": "Ashutosh Sahni.",
+      "subHeading": "I build things for the web & windows.",
+      "description": "I am a Software Developer skilled in building web and desktop applications. I occasionally explore design, adding creativity to my work. Currently, I am focused on enhancing my skills and delivering applications with exceptional user experiences."
+    }
+  ],
+
+  "about": [
+    {
+      "description": "Hello! My name is Brittany and I enjoy creating things that live on the internet. My interest in web development started back in 2012 when I decided to try editing custom Tumblr themes — turns out hacking together a custom reblog button taught me a lot about HTML & CSS!\nFast-forward to today, and I’ve had the privilege of working at an advertising agency, a start-up, a huge corporation, and a student-led design studio. My main focus these days is building accessible, inclusive products and digital experiences at Upstatement for a variety of clients.\nI also recently launched a course that covers everything you need to build a web app with the Spotify API using Node & React.\nHere are a few technologies I've been working with recently:",
+      "technologies": ["JavaScript", "Node.js", "ReactJS"]
+    }
+  ]
+}

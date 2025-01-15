@@ -1,0 +1,48 @@
+.intro {
+  display: flex;
+  flex-direction: column;
+  padding: 66px 33px;
+  gap:18px;
+  height: 90vh;
+  justify-content: center;
+}
+
+.introGreet {
+  font-family: "Roboto Mono", serif;
+  color:var(--shade_four);
+}
+
+.introName, .introSubHeading {
+  font-size: clamp(40px, 5vw, 60px);;
+  font-weight: bolder;
+}
+
+.introSubHeading {
+  color:var(--shade_four);
+}
+
+.introDesc {
+  color:var(--shade_four);
+  line-height: 26px;
+}
+
+.intro_btn {
+  font-family: "Roboto Mono", serif;
+  background-color: var(--shade_one);
+  color:var(--shade_three);
+  padding:10px;
+  border-radius: 0.3em;
+  border:1px solid;
+  cursor: pointer;
+  margin-top: 33px;
+}
+
+.intro_btn:hover {
+  box-shadow: 3px 3px 0px var(--shade_three);
+}
+
+@media (min-width: 1200px) {
+  .introDesc {
+    width: 60%;
+  }
+}

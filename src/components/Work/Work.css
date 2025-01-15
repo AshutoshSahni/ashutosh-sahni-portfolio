@@ -1,0 +1,10 @@
+.work {
+  margin: 20% 0;
+}
+
+.majorProject {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

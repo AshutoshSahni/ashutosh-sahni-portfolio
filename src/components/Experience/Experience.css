@@ -1,0 +1,57 @@
+:root {
+  --background_shade: rgba(3, 52, 110, 0.5);
+}
+
+.experience {
+  margin: 33px;
+}
+
+.workContainer {
+  display: flex;
+  width: 100%;
+  margin:44px 0px;
+}
+
+
+.companyNavItem {
+  padding: 0px 10px;
+  cursor: pointer;
+  border-radius: 0.1em;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  border-left: 1px solid var(--shade_three);
+  line-height: 33px;
+  font-size: small;
+  font-family: "Roboto Mono", serif;
+}
+
+.companyNavItem:hover {
+  background-color: var(--shade_three);
+  color: var(--shade_four);
+}
+
+.companyNavItem.active {
+  color: var(--shade_four);
+  border-left: 1px solid var(--shade_four);
+  background: var(--background_shade);
+  backdrop-filter: blur(10px);  
+}
+
+.workDetails {
+  width: 70%;
+  margin-top: -15px;
+  margin-left: 22px;
+}
+
+.workDuration {
+  font-family: "Roboto Mono", serif; 
+}
+
+.workDescription {
+  color: var(--shade_four);
+  line-height: 24px;
+  list-style:square;
+}
+
+.workDescription li {
+  margin: 12px 0px;
+}

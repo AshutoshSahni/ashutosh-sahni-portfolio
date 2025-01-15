@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --shade_one: #021526;
+  --shade_two: #03346E;
+  --shade_three: #6EACDA;
+  --shade_four: #E2E2B6;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--shade_one);
+  color: var(--shade_three);
+  font-family: "Montserrat", serif;
+}

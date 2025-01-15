@@ -1,0 +1,100 @@
+.otherProjects {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 33px 0px;
+  gap: 33px;
+}
+
+.otherProjectsHeader {
+  text-align: center;
+}
+
+.otherProjectsHeading {
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+.otherProjectsSubHeading {
+  font-family: "Roboto Mono", serif;
+  color: var(--shade_four);
+}
+
+.otherProjectsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  margin:22px;
+  gap: 22px;
+  justify-content: center;
+}
+
+.otherProjectCard {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid;
+  padding: 22px;
+  width: 45%;
+}
+
+.otherProjectsCardHeader {
+  display: flex;
+  justify-content: space-between;
+}
+
+.otherProjectCardBody {
+  margin: 22px 0px;
+}
+
+.otherProjectName {
+  font-size: large;
+  color: var(--shade_four);
+  font-weight: bold;
+}
+
+.otherProjectDesc {
+  padding-top: 11px;
+  font-size: small;
+}
+
+.otherProjectCardTechStack {
+  display: flex;
+  gap: 20px;
+  font-family: "Roboto Mono", serif;
+  color: var(--shade_four);
+  font-size: small;
+}
+
+.folderIcon {
+  font-size: xx-large;
+}
+
+.otherProjectsCardLinkIcons{
+  display: flex;
+  gap: 11px;
+  font-size: large;
+}
+
+.OtherProjectsShowMore {
+  font-family: "Roboto Mono", serif;
+  background-color: var(--shade_one);
+  color:var(--shade_three);
+  padding:10px;
+  border-radius: 0.3em;
+  border:1px solid;
+  cursor: pointer;
+}
+
+.OtherProjectsShowMore:hover {
+  box-shadow: 3px 3px 0px var(--shade_three);
+}
+
+@media (max-width: 900px) {
+  .otherProjectsContainer {
+    flex-direction: column;
+  }
+  
+  .otherProjectCard {
+    width: 100%;
+  }
+}
