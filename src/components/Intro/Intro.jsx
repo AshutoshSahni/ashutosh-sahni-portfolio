@@ -1,26 +1,26 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import './Intro.css'
+import { DataContext } from '../../DataContext'
 
 const Intro = () => {
+  const intro = useContext(DataContext).intro;
+
   return (
     <div className='intro'>
       <div className='introGreet'>
-        Hi, my name is
+        {intro[0].greet}
       </div>
 
       <div className='introName'>
-        Ashutosh Sahni.
+        {intro[0].userName}
       </div>
 
       <div className='introSubHeading'>
-        I build things for the web.
+      {intro[0].subHeading}
       </div>
 
       <div className='introDesc'>
-        I’m a software engineer specializing in building
-        (and occasionally designing) exceptional digital experiences.
-        Currently, I’m focused on building accessible,
-        human-centered products at Upstatement.
+      {intro[0].description}
       </div>
 
       <div className='introButton'>
