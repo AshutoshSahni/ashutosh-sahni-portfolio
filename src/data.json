@@ -18,5 +18,29 @@
       ],
       "technologies": ["ReactJS", "SQL", "Winforms C#", "Figma", "NodeJS", "Internet Computing"]
     }
+  ],
+
+  "workExperience": [
+    {
+      "companyName": "CodeClause",
+      "designation": "Python Developer Intern",
+      "duration": "June 2023",
+      "description": [
+        "Worked at various small Python projects that required creating GUI based applications.",
+        "This was a remote internship and during the internship, I explored various python libraries such as Tkinter, Random, etc.",
+        "Some of the projects include, Speed Typing Test, GUI Calculator and Random Password Generator."
+      ]
+    },
+    {
+      "companyName": "Digisure Technologies Pvt. Ltd.",
+      "designation": "Junior Software Developer",
+      "duration": "June 2024 - Present",
+      "description": [
+        "Developing high-quality, robust Windows applications coded using C#.",
+        "Worked on 5+ Windows Project handling both frontend and database portion.",
+        "Some of the projects include, Paroso Bhojan, Smart Desktop, Database Comparison Tool, IESCMS, etc."
+      ]
+    }
   ]
+  
 }

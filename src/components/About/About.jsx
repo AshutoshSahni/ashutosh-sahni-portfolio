@@ -5,7 +5,6 @@ import { DataContext } from '../../DataContext'
 const About = () => {
 
   const about = useContext(DataContext).about;
-  const currentIdx = -1;
 
   return (
     <div className='about' id='about'>

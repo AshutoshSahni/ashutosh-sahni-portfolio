@@ -1,28 +1,14 @@
-import React, { useState } from 'react'
+import React, { useContext, useState } from 'react'
 import './Experience.css'
+import { DataContext } from '../../DataContext'
 
 const Experience = () => {
 
   const [selectedCompany, setSelectedCompany] = useState('Upstatement');
 
-  const workDetails = {
-    Upstatement: {
-      jobTitle: "Lead Engineer @ Upstatement",
-      duration: "May 2018 - Present",
-      description: [
-        "Deliver high-quality, robust production code for a diverse array of projects for clients including Harvard Business School, Everytown for Gun Safety, Pratt Institute, Koala Health, Vanderbilt University, The 19th News, and more.",
-        "Work alongside creative directors to lead the research, development, and architecture of technical solutions to fulfill business requirements."
-      ]
-    },
-    Apple: {
-      jobTitle: "UI Engineer Co-op @ Apple",
-      duration: "July - December 2017",
-      description: [
-        "Developed and styled interactive web applications for Apple Music using Ember and SCSS.",
-        "Built and shipped the Apple Music Extension for Facebook Messenger leveraging third-party and internal API integrations."
-      ]
-    }
-  };
+  const workDetails = useContext(DataContext).workExperience;
+
+  console.log(workDetails);
 
   return (
     <div className='experience' id='experience'>
@@ -38,9 +24,9 @@ const Experience = () => {
       <div className='workContainer'>
         <div className='companyNav'>
           {
-            Object.keys(workDetails).map((company) => (
+            Object.keys(workDetails).map((company, index) => (
               <div
-                key={company}
+                key={index}
                 className={`companyNavItem ${selectedCompany === company ? "active" : ""}`}
                 onClick={() => setSelectedCompany(company)}
               >
