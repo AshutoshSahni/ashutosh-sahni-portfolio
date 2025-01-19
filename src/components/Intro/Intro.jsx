@@ -24,7 +24,7 @@ const Intro = () => {
       </div>
 
       <div className='introButton'>
-        <button className='intro_btn'>Check out my course!</button>
+        <button className='intro_btn'>Checkout my digital card!</button>
       </div>
 
     </div>

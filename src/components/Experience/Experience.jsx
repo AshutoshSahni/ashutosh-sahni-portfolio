@@ -4,7 +4,7 @@ import { DataContext } from '../../DataContext'
 
 const Experience = () => {
 
-  const [selectedCompany, setSelectedCompany] = useState('Upstatement');
+  const [selectedCompany, setSelectedCompany] = useState(0);
 
   const workDetails = useContext(DataContext).workExperience;
 
@@ -24,13 +24,13 @@ const Experience = () => {
       <div className='workContainer'>
         <div className='companyNav'>
           {
-            Object.keys(workDetails).map((company, index) => (
+            workDetails.map((company, index) => (
               <div
                 key={index}
-                className={`companyNavItem ${selectedCompany === company ? "active" : ""}`}
-                onClick={() => setSelectedCompany(company)}
+                className={`companyNavItem ${selectedCompany === index ? "active" : ""}`}
+                onClick={() => setSelectedCompany(index)}
               >
-                {company}
+                {company.companyName}
               </div>
             ))
           }
@@ -39,7 +39,7 @@ const Experience = () => {
         <div className='workDetails'>
           {workDetails[selectedCompany] && (
             <div className="workContent">
-              <h3>{workDetails[selectedCompany].jobTitle}</h3>
+              <h3>{workDetails[selectedCompany].designation}</h3>
               <p className='workDuration'>{workDetails[selectedCompany].duration}</p>
               <ul className='workDescription'>
                 {workDetails[selectedCompany].description.map((detail, index) => (

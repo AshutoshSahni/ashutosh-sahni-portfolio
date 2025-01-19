@@ -38,12 +38,13 @@
 
 .workDetails {
   width: 70%;
-  margin-top: -15px;
-  margin-left: 22px;
+  margin-top: 0px;
+  margin-left: 30px;
 }
 
 .workDuration {
   font-family: "Roboto Mono", serif; 
+  margin-top: 5px;
 }
 
 .workDescription {

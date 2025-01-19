@@ -23,7 +23,7 @@
   "workExperience": [
     {
       "companyName": "CodeClause",
-      "designation": "Python Developer Intern",
+      "designation": "Python Developer Intern | CodeClause",
       "duration": "June 2023",
       "description": [
         "Worked at various small Python projects that required creating GUI based applications.",
@@ -32,14 +32,26 @@
       ]
     },
     {
-      "companyName": "Digisure Technologies Pvt. Ltd.",
-      "designation": "Junior Software Developer",
+      "companyName": "Digisure",
+      "designation": "Junior Software Developer | Digisure Technologies Pvt. Ltd.",
       "duration": "June 2024 - Present",
       "description": [
         "Developing high-quality, robust Windows applications coded using C#.",
         "Worked on 5+ Windows Project handling both frontend and database portion.",
-        "Some of the projects include, Paroso Bhojan, Smart Desktop, Database Comparison Tool, IESCMS, etc."
+        "Some of the projects include, Paroso Bhojan, Smart Desktop, Database Comparison Tool, IESCMS, etc.",
+        "Contributed small changes to few web projects too."
       ]
+    }
+  ],
+
+  "majorProjects": [
+    {
+      "projectName": "React Jobs",
+      "isOpenSource": true,
+      "description": "",
+      "technologyUsed": [],
+      "githubLink": "",
+      "liveLink": ""
     }
   ]
   
