@@ -48,8 +48,24 @@
     {
       "projectName": "React Jobs",
       "isOpenSource": true,
-      "description": "",
-      "technologyUsed": [],
+      "description": "A simple and straighforward frontend project built using ReactJS and Json Server. Created this project to learn and practice CRUD operations in ReactJS.",
+      "technologyUsed": ["ReactJS", "Json", "Tailwind CSS"],
+      "githubLink": "https://github.com/AshutoshSahni/react-jobs",
+      "liveLink": ""
+    },
+    {
+      "projectName": "Paroso Bhojan",
+      "isOpenSource": false,
+      "description": "A Windows based multi-tanent POS Applicatoin build for restaurants. Build using Syncfusion components for minimal and modern look.",
+      "technologyUsed": ["Windows", ".Net C#", "Syncfusion", "SSMS"],
+      "githubLink": "",
+      "liveLink": "https://parosobhojan.com/"
+    },
+    {
+      "projectName": "Keeper App",
+      "isOpenSource": true,
+      "description": "Tweaked version of Google Keep. Build using ReactJS as frontend and Motoko as backend. ",
+      "technologyUsed": ["ReactJS", "Json", "Tailwind CSS"],
       "githubLink": "",
       "liveLink": ""
     }

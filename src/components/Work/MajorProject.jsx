@@ -1,9 +1,12 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import { FaGithub } from 'react-icons/fa'
 import { GoLinkExternal } from "react-icons/go";
 import './MajorProject.css'
 
-const MajorProject = () => {
+const MajorProject = (props) => {
+
+  console.log(props);
+
   return (
     <div className='majorProjectContainer'>
       <div className='majorProjectImage'>
@@ -16,28 +19,34 @@ const MajorProject = () => {
         </div>
 
         <div className='majorProjectName'>
-          Halcyon Theme
+          {props.projectName}
         </div>
 
         <div className='majorProjectDesc'>
-        A minimal, dark blue theme for VS Code, Sublime Text, Atom, iTerm, and more. Available on Visual Studio Marketplace, Package Control, Atom Package Manager, and npm.
+          {props.description}
         </div>
 
         <div className='majorProjectTechStack'>
-          <div>VS Code</div>
-          <div>Sublime Text</div>
-          <div>Atom</div>
-          <div>iTerm2</div>
-          <div>Hyper</div>
+          {
+            (props.technologyUsed).map((item) => <div>{item}</div>)
+          }
         </div>
 
         <div className='majorProjectLink'>
           <div className='majorProjectIcon'>
-            <FaGithub />
+            { 
+              (props.githubLink !== "") 
+              && 
+              <a target="_blank" href={props.githubLink}><FaGithub /></a> 
+            }
           </div>
 
           <div className='majorProjectIcon'>
-            <GoLinkExternal />
+            {
+              (props.liveLink !== "")
+              && 
+              <a target="_blank" href={props.liveLink}><GoLinkExternal /></a>
+            }
           </div>
         </div>
       </div>

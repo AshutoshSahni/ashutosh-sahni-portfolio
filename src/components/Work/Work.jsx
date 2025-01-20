@@ -1,8 +1,14 @@
-import React from 'react'
+import React, {useContext} from 'react'
 import './Work.css'
 import MajorProject from './MajorProject'
+import { DataContext } from '../../DataContext'
 
 const Work = () => {
+
+  const majorProjects = useContext(DataContext).majorProjects;
+
+  console.log(majorProjects);
+
   return (
     <div className='work' id='work'>
       <div className='aboutHeader'>
@@ -15,10 +21,21 @@ const Work = () => {
       </div>
 
       <div className='majorProject'>
-        <MajorProject />
-        <MajorProject />
-        <MajorProject />
-        
+        {
+          majorProjects.map((project, index) => {
+            return (
+              <MajorProject 
+                key={index}
+                projectName={project.projectName}
+                isOpenSource={project.isOpenSource}
+                description={project.description}
+                technologyUsed={project.technologyUsed}
+                githubLink={project.githubLink}
+                liveLink={project.liveLink}
+              />
+            )
+          })
+        }
       </div>
     </div>
   )
