@@ -69,6 +69,72 @@
       "githubLink": "",
       "liveLink": ""
     }
+  ],
+
+  "otherProjects": [
+    {
+      "projectName": "Database Comparison Tool",
+      "description": "A Windows application build for comparing two databases. The comparison includes Tables, Procedures, Functions & Triggers.",
+      "technologyUsed": ["Winforms", ".Net C#", "SQL"],
+      "githubLink": "",
+      "liveLink": ""
+    },
+    {
+      "projectName": "Task List",
+      "description": "A simple todo application, build using ReacJS.",
+      "technologyUsed": ["ReactJS", "Tailwind CSS"],
+      "githubLink": "https://github.com/AshutoshSahni/task-list-react-app",
+      "liveLink": "https://ashutoshsahni-task-react-project.netlify.app/"
+    },
+    {
+      "projectName": "Speed Typing Test",
+      "description": "This project was part of a Python Internship. A simple Python Deskotp application to test you typing speed.",
+      "technologyUsed": ["Python", "Tkinter"],
+      "githubLink": "https://github.com/AshutoshSahni/CodeClause_SpeedTypingTest",
+      "liveLink": ""
+    },
+    {
+      "projectName": "Smart Desktop",
+      "description": "One of my company projects. I implemented Image Zooming functionaliy, Gibbrish Detection and added other small features.",
+      "technologyUsed": ["Winforms C#", "SQL", "Syncfusion"],
+      "githubLink": "",
+      "liveLink": ""
+    },
+    {
+      "projectName": "Google Clone",
+      "description": "One of my initial frontend projects. Cloned Google Search, Google Advanced Search and Google Image Search. (Github has marked it as Phishing Webpage)",
+      "technologyUsed": ["HTML", "SCSS"],
+      "githubLink": "https://github.com/AshutoshSahni/Google-Clone.github.io",
+      "liveLink": "https://ashutoshsahni.github.io/Google-Clone.github.io/"
+    },
+    {
+      "projectName": "Smart Misc Weigh",
+      "description": "",
+      "technologyUsed": [],
+      "githubLink": "",
+      "liveLink": ""
+    },
+    {
+      "projectName": "IESCMS",
+      "description": "",
+      "technologyUsed": [],
+      "githubLink": "",
+      "liveLink": ""
+    },
+    {
+      "projectName": "Meme Generator",
+      "description": "",
+      "technologyUsed": [],
+      "githubLink": "",
+      "liveLink": ""
+    },
+    {
+      "projectName": "Old File Cleaning Utility",
+      "description": "",
+      "technologyUsed": [],
+      "githubLink": "",
+      "liveLink": ""
+    }
   ]
   
 }
