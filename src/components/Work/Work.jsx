@@ -7,8 +7,6 @@ const Work = () => {
 
   const majorProjects = useContext(DataContext).majorProjects;
 
-  console.log(majorProjects);
-
   return (
     <div className='work' id='work'>
       <div className='aboutHeader'>

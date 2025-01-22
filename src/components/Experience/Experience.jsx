@@ -5,10 +5,7 @@ import { DataContext } from '../../DataContext'
 const Experience = () => {
 
   const [selectedCompany, setSelectedCompany] = useState(0);
-
   const workDetails = useContext(DataContext).workExperience;
-
-  console.log(workDetails);
 
   return (
     <div className='experience' id='experience'>

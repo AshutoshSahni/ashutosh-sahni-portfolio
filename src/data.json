@@ -77,6 +77,7 @@
       "description": "A Windows application build for comparing two databases. The comparison includes Tables, Procedures, Functions & Triggers.",
       "technologyUsed": ["Winforms", ".Net C#", "SQL"],
       "githubLink": "",
+      "isOpenSource": false,
       "liveLink": ""
     },
     {
@@ -84,6 +85,7 @@
       "description": "A simple todo application, build using ReacJS.",
       "technologyUsed": ["ReactJS", "Tailwind CSS"],
       "githubLink": "https://github.com/AshutoshSahni/task-list-react-app",
+      "isOpenSource": true,
       "liveLink": "https://ashutoshsahni-task-react-project.netlify.app/"
     },
     {
@@ -91,6 +93,7 @@
       "description": "This project was part of a Python Internship. A simple Python Deskotp application to test you typing speed.",
       "technologyUsed": ["Python", "Tkinter"],
       "githubLink": "https://github.com/AshutoshSahni/CodeClause_SpeedTypingTest",
+      "isOpenSource": true,
       "liveLink": ""
     },
     {
@@ -98,6 +101,7 @@
       "description": "One of my company projects. I implemented Image Zooming functionaliy, Gibbrish Detection and added other small features.",
       "technologyUsed": ["Winforms C#", "SQL", "Syncfusion"],
       "githubLink": "",
+      "isOpenSource": false,
       "liveLink": ""
     },
     {
@@ -105,35 +109,47 @@
       "description": "One of my initial frontend projects. Cloned Google Search, Google Advanced Search and Google Image Search. (Github has marked it as Phishing Webpage)",
       "technologyUsed": ["HTML", "SCSS"],
       "githubLink": "https://github.com/AshutoshSahni/Google-Clone.github.io",
+      "isOpenSource": true,
       "liveLink": "https://ashutoshsahni.github.io/Google-Clone.github.io/"
     },
     {
-      "projectName": "Smart Misc Weigh",
-      "description": "",
-      "technologyUsed": [],
+      "projectName": "Smart Misc Weighment",
+      "description": "One of the company projects. Implemented various weighment print formats.",
+      "technologyUsed": ["Winforms C#", "Syncfusion", "SQL"],
       "githubLink": "",
+      "isOpenSource": false,
       "liveLink": ""
     },
     {
       "projectName": "IESCMS",
-      "description": "",
-      "technologyUsed": [],
+      "description": "One of the company projects. Designed frontend for some important tables and ability to perform CRUD operations on them without directly interacting with database.",
+      "technologyUsed": ["Winforms C#", "Syncfusion", "SQL"],
       "githubLink": "",
+      "isOpenSource": false,
       "liveLink": ""
     },
     {
       "projectName": "Meme Generator",
-      "description": "",
-      "technologyUsed": [],
-      "githubLink": "",
+      "description": "One of my initial ReactJS learning projects. A simple webapplication to generate memes with random API fetched images.",
+      "technologyUsed": ["ReactJS"],
+      "githubLink": "https://github.com/AshutoshSahni/Meme-Generator",
+      "isOpenSource": true,
       "liveLink": ""
     },
     {
       "projectName": "Old File Cleaning Utility",
-      "description": "",
-      "technologyUsed": [],
+      "description": "One fo my company projects. Created an utility software to easily clean old files from directory and it's sub-directories based on custom fiters.",
+      "technologyUsed": ["Winforms C#", "Syncfusion"],
       "githubLink": "",
+      "isOpenSource": false,
       "liveLink": ""
+    }
+  ],
+  
+  "contact": [
+    {
+      "description": "I am actively looking for new opportunities, my inbox is always open. Whether you have a question or just want to say hi, I'll try my best to get back to you!",
+      "mailId": "mailto:ashutoshsahni.as@gmail.com"
     }
   ]
   

@@ -1,7 +1,11 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import './Contact.css';
+import {DataContext} from '../../DataContext';
 
 const Contact = () => {
+
+  const contact = useContext(DataContext).contact[0];
+
   return (
     <div className='contact' id='contact'>
         <div className='contactSubHeading'>
@@ -12,12 +16,12 @@ const Contact = () => {
         </div>
 
         <div className='contactBody'>
-        Although I’m not currently looking for any new opportunities, my inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!
+          {contact.description}
         </div>
 
         <div className='contactButton'>
           <button className='btnSayHello'>
-            Say Hello
+            <a href={contact.mailId}>Say Hello</a>
           </button>
         </div>      
     </div>

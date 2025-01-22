@@ -3,7 +3,7 @@ import { FaRegFolder } from "react-icons/fa6";
 import { GoLinkExternal } from "react-icons/go";
 import { FaGithub } from 'react-icons/fa'
 
-const ProjectCard = () => {
+const ProjectCard = (props) => {
   return (
         <div className='otherProjectCard'>
           <div className='otherProjectsCardHeader'>
@@ -11,23 +11,27 @@ const ProjectCard = () => {
               <FaRegFolder />
             </div>
             <div className='otherProjectsCardLinkIcons'>
-              <FaGithub />
-              <GoLinkExternal />
+              {props.githubLink !== "" && <a href={props.githubLink} target='_blank'><FaGithub /></a>}
+              {props.liveLink !== "" && <a href={props.liveLink} target='_blank'><GoLinkExternal /></a>}
             </div>
           </div>
           
           <div className='otherProjectCardBody'>
-            <div className='otherProjectName'>Integrating Algolia Search with WordPress Multisite</div>
+            <div className='otherProjectName'>
+              {props.projectName}
+            </div>
             <p className='otherProjectDesc'>
-              Building a custom multisite compatible WordPress plugin to build global search with Algolia
+              {props.description}
             </p>
           </div>
 
           <div className='otherProjectCardFooter'>
             <ul className='otherProjectCardTechStack'>
-              <li>Algolia</li>
-              <li>WordPress</li>
-              <li>PHP</li>
+              {
+              (props.technologyUsed).map((technology, index) => (
+                <li key={index}>{technology}</li>
+              ))
+            }
             </ul>
           </div>
         </div>

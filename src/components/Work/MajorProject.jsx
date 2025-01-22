@@ -4,9 +4,6 @@ import { GoLinkExternal } from "react-icons/go";
 import './MajorProject.css'
 
 const MajorProject = (props) => {
-
-  console.log(props);
-
   return (
     <div className='majorProjectContainer'>
       <div className='majorProjectImage'>
@@ -28,7 +25,7 @@ const MajorProject = (props) => {
 
         <div className='majorProjectTechStack'>
           {
-            (props.technologyUsed).map((item) => <div>{item}</div>)
+            (props.technologyUsed).map((item, index) => <div key={index}>{item}</div>)
           }
         </div>
 
