@@ -85,3 +85,14 @@ ul li::marker {
     flex: 1;
   }
 }
+
+@media (max-width: 490px) {
+  .about {
+    margin:15%;
+  }
+
+  .image {
+    width: 180px;
+    height: 180px;
+  }
+}

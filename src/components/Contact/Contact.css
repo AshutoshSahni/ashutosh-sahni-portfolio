@@ -35,3 +35,9 @@
 .btnSayHello:hover{
   box-shadow: 3px 3px 0px var(--shade_three);
 }
+
+@media (max-width: 490px) {
+  .contact {
+    margin: 15%;
+  }
+}

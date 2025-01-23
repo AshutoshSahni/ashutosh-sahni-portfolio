@@ -98,3 +98,9 @@
     width: 100%;
   }
 }
+
+@media (max-width: 490px) {
+  .otherProjects {
+    margin: 10%;
+  }
+}

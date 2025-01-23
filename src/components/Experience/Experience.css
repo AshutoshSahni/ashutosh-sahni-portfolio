@@ -56,3 +56,10 @@
 .workDescription li {
   margin: 12px 0px;
 }
+
+@media (max-width: 490px) {
+  .experience {
+    margin:15%;
+  }
+  
+}

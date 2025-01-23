@@ -25,7 +25,7 @@ const Intro = () => {
 
       <div className='introButton'>
         <button className='intro_btn'>
-          <a href="https://ashutoshsahni.carrd.co/" target='_blank'>Checkout my Digital Card</a>
+          <a href="https://ashutoshsahni.carrd.co/" target='_blank'>My Digital Card</a>
         </button>
       </div>
 

@@ -131,3 +131,9 @@
     justify-content: center;
   }
 }
+
+@media (max-width: 490px) {
+  .majorProjectContainer {
+    margin:20px;
+  }
+}

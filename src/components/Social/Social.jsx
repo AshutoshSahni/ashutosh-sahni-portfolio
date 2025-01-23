@@ -7,23 +7,23 @@ const Social = () => {
   return (
     <div className='social'>
       <div className="socialIcon">
-        <FaGithub />
+        <a href='https://github.com/AshutoshSahni' target='_blank'><FaGithub /></a>
       </div>
 
       <div className="socialIcon">
-      <FaLinkedin />
+      <a href='https://www.linkedin.com/in/ashutosh-sahni-a941aa192/' target='_blank'><FaLinkedin /></a>
       </div>
 
       <div className="socialIcon">
-      <FaInstagram />
+      <a href='https://www.instagram.com/ashutoshsahni.as/' target='_blank'><FaInstagram /></a>
       </div>
 
       <div className="socialIcon">
-      <SiLeetcode />
+      <a href='https://leetcode.com/ashutoshsahni/' target='_blank'><SiLeetcode /></a>
       </div>
 
       <div className="socialIcon">
-      <FaTwitter />
+      <a href='https://twitter.com/iashutoshsahni' target='_blank'><FaTwitter /></a>
       </div>
 
       <div className="socialLine"></div>

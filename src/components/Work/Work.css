@@ -8,3 +8,17 @@
   flex-direction: column;
   align-items: center;
 }
+
+.work > .aboutHeading {
+  padding: 0 20%;
+}
+
+@media (max-width: 490px) {
+  .work {
+    margin: 10%;
+  }
+
+  .work > .aboutHeading {
+    padding: 0 10%;
+  }
+}
