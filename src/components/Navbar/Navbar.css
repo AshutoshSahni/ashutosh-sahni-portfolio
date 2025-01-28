@@ -38,20 +38,6 @@
   font-size: smaller;
 }
 
-.btnResume {
-  font-family: "Roboto Mono", serif;
-  background-color: var(--shade_one);
-  color: var(--shade_four);
-  padding: 10px;
-  border-radius: 0.3em;
-  border: 1px solid;
-  cursor: pointer;
-}
-
-.btnResume:hover {
-  box-shadow: 3px 3px 0px var(--shade_four);
-}
-
 /* Hamburger Menu */
 .hamburger {
   display: none;

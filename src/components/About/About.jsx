@@ -34,7 +34,9 @@ const About = () => {
 
         <div className='aboutImage'>
           <div className='imageBorder'>
-            <div className='image'></div>
+            <div className='image'>
+              <img className='myProfilePic' src="/ashutoshsahni.png" />
+            </div>
           </div>
         </div>
 

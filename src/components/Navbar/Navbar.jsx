@@ -46,10 +46,6 @@ const Navbar = () => {
           <span className="navNumber">04.&nbsp;</span>
           <span className="navLinkName">Contact</span>
         </div>
-
-        <div className="navLink">
-          <button className="btnResume">Resume</button>
-        </div>
       </div>
 
       {/* Sidebar for Small Screens */}
@@ -72,9 +68,6 @@ const Navbar = () => {
         <div className="sidebarLink" onClick={() => scrollToSection('contact')}>
           <span className="navNumber">04.&nbsp;</span>
           <span className="navLinkName">Contact</span>
-        </div>
-        <div className="sidebarLink">
-          <button className="btnResume">Resume</button>
         </div>
 
       </div>
