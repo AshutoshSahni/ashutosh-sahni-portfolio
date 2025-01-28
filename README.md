@@ -6,12 +6,12 @@
 ---
 
 ## 📖 Table of Contents
-- [About](#about)
-- [Tech Stack](#tech-stack)
-- [Features](#features)
-- [Getting Started](#getting-started)
-- [Deployment](#deployment)
-- [Contact](#contact)
+- [About](##about)
+- [Tech Stack](##tech-stack)
+- [Features](##features)
+- [Getting Started](##getting-started)
+- [Deployment](##deployment)
+- [Contact](##contact)
 
 ---
 
@@ -71,7 +71,7 @@ This portfolio is deployed on **Netlify**. To deploy your own copy:
 ## 📧 Contact
 Want to connect with me? Reach out through:  
 - **Email:** ashutoshsahni.as@gmail.com  
-- **Portfolio:** [https://ashutoshsahni.netlify.app/]https://ashutoshsahni.netlify.app/)  
+- **Portfolio:** [https://ashutoshsahni.netlify.app/](https://ashutoshsahni.netlify.app/)  
 - **GitHub:** [https://github.com/ashutoshsahni](https://github.com/ashutoshsahni)  
 - **LinkedIn:** [https://www.linkedin.com/in/ashutosh-sahni-a941aa192/](https://www.linkedin.com/in/ashutosh-sahni-a941aa192/)  
 
